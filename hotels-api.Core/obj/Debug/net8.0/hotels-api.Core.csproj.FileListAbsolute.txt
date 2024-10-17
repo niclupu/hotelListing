@@ -1,0 +1,17 @@
+/Users/nlupu/Projects/hotels-api/hotels-api.Core/obj/Debug/net8.0/hotels-api.Core.csproj.AssemblyReference.cache
+/Users/nlupu/Projects/hotels-api/hotels-api.Core/obj/Debug/net8.0/hotels-api.Core.GeneratedMSBuildEditorConfig.editorconfig
+/Users/nlupu/Projects/hotels-api/hotels-api.Core/obj/Debug/net8.0/hotels-api.Core.AssemblyInfoInputs.cache
+/Users/nlupu/Projects/hotels-api/hotels-api.Core/obj/Debug/net8.0/hotels-api.Core.AssemblyInfo.cs
+/Users/nlupu/Projects/hotels-api/hotels-api.Core/obj/Debug/net8.0/hotels-api.Core.csproj.CoreCompileInputs.cache
+/Users/nlupu/Projects/hotels-api/hotels-api.Core/bin/Debug/net8.0/hotels-api.Core.deps.json
+/Users/nlupu/Projects/hotels-api/hotels-api.Core/bin/Debug/net8.0/hotels-api.Core.runtimeconfig.json
+/Users/nlupu/Projects/hotels-api/hotels-api.Core/bin/Debug/net8.0/hotels-api.Core.dll
+/Users/nlupu/Projects/hotels-api/hotels-api.Core/bin/Debug/net8.0/hotels-api.Core.pdb
+/Users/nlupu/Projects/hotels-api/hotels-api.Core/bin/Debug/net8.0/hotels-api.Data.dll
+/Users/nlupu/Projects/hotels-api/hotels-api.Core/bin/Debug/net8.0/hotels-api.Data.pdb
+/Users/nlupu/Projects/hotels-api/hotels-api.Core/obj/Debug/net8.0/hotels-a.9B46E7F7.Up2Date
+/Users/nlupu/Projects/hotels-api/hotels-api.Core/obj/Debug/net8.0/hotels-api.Core.dll
+/Users/nlupu/Projects/hotels-api/hotels-api.Core/obj/Debug/net8.0/refint/hotels-api.Core.dll
+/Users/nlupu/Projects/hotels-api/hotels-api.Core/obj/Debug/net8.0/hotels-api.Core.pdb
+/Users/nlupu/Projects/hotels-api/hotels-api.Core/obj/Debug/net8.0/hotels-api.Core.genruntimeconfig.cache
+/Users/nlupu/Projects/hotels-api/hotels-api.Core/obj/Debug/net8.0/ref/hotels-api.Core.dll

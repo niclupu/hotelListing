@@ -1,0 +1,272 @@
+2024-05-10 16:00:16.299 +03:00 [INF] Now listening on: https://localhost:7202
+2024-05-10 16:00:16.314 +03:00 [INF] Now listening on: http://localhost:5073
+2024-05-10 16:00:16.315 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-10 16:00:16.315 +03:00 [INF] Hosting environment: Development
+2024-05-10 16:00:16.315 +03:00 [INF] Content root path: /Users/nlupu/Projects/hotels-api/hotels-api
+2024-05-10 16:00:17.941 +03:00 [INF] HTTP POST /api/events/raw responded 404 in 121.8333 ms
+2024-05-10 16:00:19.977 +03:00 [INF] HTTP POST /api/events/raw responded 404 in 2.4254 ms
+2024-05-10 16:00:27.842 +03:00 [INF] Registration Attempt for user@example.com
+2024-05-10 16:00:27.849 +03:00 [INF] HTTP POST /api/Account/register responded 400 in 166.1496 ms
+2024-05-10 16:00:30.011 +03:00 [INF] HTTP POST /api/events/raw responded 404 in 0.3366 ms
+2024-05-10 16:00:50.021 +03:00 [INF] HTTP POST /api/events/raw responded 404 in 0.3076 ms
+2024-05-10 16:01:30.061 +03:00 [INF] HTTP POST /api/events/raw responded 404 in 0.1793 ms
+2024-05-10 16:02:50.188 +03:00 [INF] HTTP POST /api/events/raw responded 404 in 0.1237 ms
+2024-05-10 16:02:59.386 +03:00 [INF] Registration Attempt for user@example.com
+2024-05-10 16:31:46.596 +03:00 [INF] Now listening on: https://localhost:7202
+2024-05-10 16:31:46.625 +03:00 [INF] Now listening on: http://localhost:5073
+2024-05-10 16:31:46.626 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-10 16:31:46.626 +03:00 [INF] Hosting environment: Development
+2024-05-10 16:31:46.626 +03:00 [INF] Content root path: /Users/nlupu/Projects/hotels-api/hotels-api
+2024-05-10 16:31:48.144 +03:00 [INF] HTTP POST /api/events/raw responded 404 in 144.8706 ms
+2024-05-10 16:31:50.271 +03:00 [INF] HTTP POST /api/events/raw responded 404 in 27.2248 ms
+2024-05-10 16:32:00.285 +03:00 [INF] HTTP POST /api/events/raw responded 404 in 4.7009 ms
+2024-05-10 16:32:04.279 +03:00 [INF] HTTP GET /api/Countries/34 responded 404 in 1200.6108 ms
+2024-05-10 16:32:20.340 +03:00 [INF] HTTP POST /api/events/raw responded 404 in 0.2234 ms
+2024-05-10 16:33:00.348 +03:00 [INF] HTTP POST /api/events/raw responded 404 in 0.1170 ms
+2024-05-10 16:33:34.597 +03:00 [INF] HTTP GET /api/Countries/34 responded 404 in 139.7283 ms
+2024-05-10 16:45:04.091 +03:00 [INF] Now listening on: https://localhost:7202
+2024-05-10 16:45:04.114 +03:00 [INF] Now listening on: http://localhost:5073
+2024-05-10 16:45:04.115 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-10 16:45:04.115 +03:00 [INF] Hosting environment: Development
+2024-05-10 16:45:04.115 +03:00 [INF] Content root path: /Users/nlupu/Projects/hotels-api/hotels-api
+2024-05-10 16:46:06.812 +03:00 [INF] HTTP POST /api/events/raw responded 404 in 83.8554 ms
+2024-05-10 16:46:08.867 +03:00 [INF] HTTP POST /api/events/raw responded 404 in 1.4196 ms
+2024-05-10 16:46:18.928 +03:00 [INF] HTTP POST /api/events/raw responded 404 in 2.6538 ms
+2024-05-10 16:46:38.983 +03:00 [INF] HTTP POST /api/events/raw responded 404 in 1.3873 ms
+2024-05-10 16:47:19.046 +03:00 [INF] HTTP POST /api/events/raw responded 404 in 0.1878 ms
+2024-05-10 16:48:39.130 +03:00 [INF] HTTP POST /api/events/raw responded 404 in 0.1429 ms
+2024-05-10 16:49:06.404 +03:00 [ERR] Unexpected exception in TimingPipeFlusher.FlushAsync.
+System.IO.IOException: The encryption operation failed, see inner exception.
+ ---> System.ComponentModel.Win32Exception (14): Bad address
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.WriteSingleChunk[TIOAdapter](ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.WriteAsyncInternal[TIOAdapter](ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at System.Net.Security.SslStream.WriteAsyncInternal[TIOAdapter](ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.PipeWriterHelpers.ConcurrentPipeWriter.FlushAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.PipeWriterHelpers.TimingPipeFlusher.FlushAsync(MinDataRate minRate, Int64 count, IHttpOutputAborter outputAborter, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http2.Http2FrameWriter.WriteGoAwayAsync(Int32 lastStreamId, Http2ErrorCode errorCode)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http2.Http2Connection.UpdateConnectionState()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http2.Http2Connection.ProcessRequestsAsync[TContext](IHttpApplication`1 application)
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext(Thread threadPoolThread)
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading.PortableThreadPool.WorkerThread.WorkerThreadStart()
+   at System.Threading.Thread.StartCallback()
+--- End of stack trace from previous location ---
+   at System.Net.Security.SslStream.WriteAsyncInternal[TIOAdapter](ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.PipeWriterHelpers.ConcurrentPipeWriter.FlushAsyncAwaited(ValueTask`1 flushTask, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.PipeWriterHelpers.TimingPipeFlusher.TimeFlushAsyncAwaited(ValueTask`1 pipeFlushTask, MinDataRate minRate, IHttpOutputAborter outputAborter, CancellationToken cancellationToken)
+2024-05-10 16:49:06.446 +03:00 [ERR] Unhandled exception while processing 0HN3GUTIN33JS.
+System.IO.IOException: The encryption operation failed, see inner exception.
+ ---> System.ComponentModel.Win32Exception (14): Bad address
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.WriteSingleChunk[TIOAdapter](ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.WriteAsyncInternal[TIOAdapter](ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at System.Net.Security.SslStream.WriteAsyncInternal[TIOAdapter](ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.IO.Pipelines.StreamPipeWriter.CompleteAsync(Exception exception)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at System.IO.Pipelines.StreamPipeWriter.CompleteAsync(Exception exception)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.DuplexPipeStreamAdapter`1.DisposeAsync()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.DuplexPipeStreamAdapter`1.DisposeAsync()
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.ExecutionContextCallback(Object s)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext(Thread threadPoolThread)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(IAsyncStateMachineBox box, Boolean allowInlining)
+   at System.Threading.Tasks.Task.RunContinuations(Object continuationObject)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder.SetResult()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.HttpConnection.ProcessRequestsAsync[TContext](IHttpApplication`1 httpApplication)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.ExecutionContextCallback(Object s)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext(Thread threadPoolThread)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(IAsyncStateMachineBox box, Boolean allowInlining)
+   at System.Threading.Tasks.Task.RunContinuations(Object continuationObject)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder.SetResult()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http2.Http2Connection.ProcessRequestsAsync[TContext](IHttpApplication`1 application)
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext(Thread threadPoolThread)
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading.PortableThreadPool.WorkerThread.WorkerThreadStart()
+   at System.Threading.Thread.StartCallback()
+--- End of stack trace from previous location ---
+   at System.Net.Security.SslStream.WriteAsyncInternal[TIOAdapter](ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.IO.Pipelines.StreamPipeWriter.CompleteAsync(Exception exception)
+   at System.IO.Pipelines.StreamPipeWriter.CompleteAsync(Exception exception)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.DuplexPipeStreamAdapter`1.DisposeAsync()
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.KestrelConnection`1.ExecuteAsync()
+2024-05-10 16:51:19.401 +03:00 [INF] HTTP POST /api/events/raw responded 404 in 0.2146 ms
+2024-05-10 16:56:39.568 +03:00 [INF] HTTP POST /api/events/raw responded 404 in 0.2536 ms
+2024-05-10 17:23:39.668 +03:00 [INF] HTTP POST /api/events/raw responded 404 in 0.7208 ms
+2024-05-10 18:41:22.195 +03:00 [INF] Now listening on: https://localhost:7202
+2024-05-10 18:41:22.212 +03:00 [INF] Now listening on: http://localhost:5073
+2024-05-10 18:41:22.213 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-10 18:41:22.213 +03:00 [INF] Hosting environment: Development
+2024-05-10 18:41:22.213 +03:00 [INF] Content root path: /Users/nlupu/Projects/hotels-api/hotels-api
+2024-05-10 18:41:23.585 +03:00 [INF] HTTP POST /api/events/raw responded 404 in 248.5027 ms
+2024-05-10 18:41:25.810 +03:00 [INF] HTTP POST /api/events/raw responded 404 in 29.2865 ms
+2024-05-10 18:41:35.850 +03:00 [INF] HTTP POST /api/events/raw responded 404 in 5.0837 ms
+2024-05-10 18:41:39.305 +03:00 [INF] HTTP GET /api/Countries responded 200 in 1051.9309 ms
+2024-05-10 18:41:50.905 +03:00 [INF] HTTP GET /api/Countries responded 200 in 241.9505 ms
+2024-05-10 18:41:55.883 +03:00 [INF] HTTP POST /api/events/raw responded 404 in 0.2209 ms
+2024-05-10 18:42:35.943 +03:00 [INF] HTTP POST /api/events/raw responded 404 in 0.4213 ms
+2024-05-10 18:42:59.383 +03:00 [INF] HTTP GET /api/Countries responded 200 in 319.1085 ms
+2024-05-10 18:43:01.567 +03:00 [INF] HTTP POST /api/Countries responded 401 in 15.0056 ms
+2024-05-10 18:43:04.175 +03:00 [INF] HTTP POST /api/Countries responded 401 in 3.2634 ms
+2024-05-10 18:43:06.967 +03:00 [INF] HTTP GET /api/Countries responded 200 in 1.6360 ms
+2024-05-10 18:43:12.304 +03:00 [INF] HTTP GET /api/Countries responded 200 in 94.6204 ms
+2024-05-10 18:43:27.106 +03:00 [INF] HTTP GET /api/Countries responded 200 in 58.7779 ms
+2024-05-10 18:43:40.694 +03:00 [INF] HTTP GET /api/Countries responded 200 in 281.3283 ms
+2024-05-10 18:43:56.130 +03:00 [INF] HTTP POST /api/events/raw responded 404 in 0.1958 ms
+2024-05-10 18:44:29.268 +03:00 [INF] Now listening on: https://localhost:7202
+2024-05-10 18:44:29.285 +03:00 [INF] Now listening on: http://localhost:5073
+2024-05-10 18:44:29.286 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-10 18:44:29.286 +03:00 [INF] Hosting environment: Development
+2024-05-10 18:44:29.286 +03:00 [INF] Content root path: /Users/nlupu/Projects/hotels-api/hotels-api
+2024-05-10 18:44:30.928 +03:00 [INF] HTTP POST /api/events/raw responded 404 in 36.6248 ms
+2024-05-10 18:44:33.029 +03:00 [INF] HTTP POST /api/events/raw responded 404 in 26.3314 ms
+2024-05-10 18:44:43.095 +03:00 [INF] HTTP POST /api/events/raw responded 404 in 4.3655 ms
+2024-05-10 18:44:56.483 +03:00 [INF] HTTP GET /api/Countries responded 200 in 638.8128 ms
+2024-05-10 18:45:01.028 +03:00 [INF] HTTP POST /api/Countries responded 201 in 166.3766 ms
+2024-05-10 18:45:03.170 +03:00 [INF] HTTP POST /api/events/raw responded 404 in 0.2676 ms
+2024-05-10 18:45:03.732 +03:00 [INF] HTTP POST /api/Countries responded 201 in 428.6589 ms
+2024-05-10 18:45:06.970 +03:00 [INF] HTTP GET /api/Countries responded 200 in 471.7146 ms
+2024-05-10 18:45:33.322 +03:00 [INF] HTTP GET /api/Countries responded 200 in 295.3108 ms
+2024-05-10 18:45:37.807 +03:00 [INF] HTTP POST /api/Countries responded 201 in 460.4967 ms
+2024-05-10 18:45:41.528 +03:00 [INF] HTTP GET /api/Countries responded 200 in 2.6451 ms
+2024-05-10 18:45:43.201 +03:00 [INF] HTTP POST /api/events/raw responded 404 in 0.3823 ms
+2024-05-10 18:45:47.334 +03:00 [INF] HTTP GET /api/Countries responded 200 in 135.9778 ms
+2024-05-10 18:47:03.405 +03:00 [INF] HTTP POST /api/events/raw responded 404 in 0.3242 ms
+2024-05-10 18:48:32.172 +03:00 [ERR] Unexpected exception in TimingPipeFlusher.FlushAsync.
+System.IO.IOException: The encryption operation failed, see inner exception.
+ ---> System.ComponentModel.Win32Exception (14): Bad address
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.WriteSingleChunk[TIOAdapter](ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.WriteAsyncInternal[TIOAdapter](ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at System.Net.Security.SslStream.WriteAsyncInternal[TIOAdapter](ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.PipeWriterHelpers.ConcurrentPipeWriter.FlushAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.PipeWriterHelpers.TimingPipeFlusher.FlushAsync(MinDataRate minRate, Int64 count, IHttpOutputAborter outputAborter, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http2.Http2FrameWriter.WriteGoAwayAsync(Int32 lastStreamId, Http2ErrorCode errorCode)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http2.Http2Connection.UpdateConnectionState()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http2.Http2Connection.ProcessRequestsAsync[TContext](IHttpApplication`1 application)
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext(Thread threadPoolThread)
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading.PortableThreadPool.WorkerThread.WorkerThreadStart()
+   at System.Threading.Thread.StartCallback()
+--- End of stack trace from previous location ---
+   at System.Net.Security.SslStream.WriteAsyncInternal[TIOAdapter](ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.PipeWriterHelpers.ConcurrentPipeWriter.FlushAsyncAwaited(ValueTask`1 flushTask, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.PipeWriterHelpers.TimingPipeFlusher.TimeFlushAsyncAwaited(ValueTask`1 pipeFlushTask, MinDataRate minRate, IHttpOutputAborter outputAborter, CancellationToken cancellationToken)
+2024-05-10 18:48:32.185 +03:00 [ERR] Unhandled exception while processing 0HN3H10A3HVDO.
+System.IO.IOException: The encryption operation failed, see inner exception.
+ ---> System.ComponentModel.Win32Exception (14): Bad address
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.WriteSingleChunk[TIOAdapter](ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.WriteAsyncInternal[TIOAdapter](ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at System.Net.Security.SslStream.WriteAsyncInternal[TIOAdapter](ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.IO.Pipelines.StreamPipeWriter.CompleteAsync(Exception exception)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at System.IO.Pipelines.StreamPipeWriter.CompleteAsync(Exception exception)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.DuplexPipeStreamAdapter`1.DisposeAsync()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.DuplexPipeStreamAdapter`1.DisposeAsync()
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.ExecutionContextCallback(Object s)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext(Thread threadPoolThread)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(IAsyncStateMachineBox box, Boolean allowInlining)
+   at System.Threading.Tasks.Task.RunContinuations(Object continuationObject)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(Task`1 task, TResult result)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder.SetResult()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.HttpConnection.ProcessRequestsAsync[TContext](IHttpApplication`1 httpApplication)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.ExecutionContextCallback(Object s)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext(Thread threadPoolThread)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(IAsyncStateMachineBox box, Boolean allowInlining)
+   at System.Threading.Tasks.Task.RunContinuations(Object continuationObject)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(Task`1 task, TResult result)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder.SetResult()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http2.Http2Connection.ProcessRequestsAsync[TContext](IHttpApplication`1 application)
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext(Thread threadPoolThread)
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading.PortableThreadPool.WorkerThread.WorkerThreadStart()
+   at System.Threading.Thread.StartCallback()
+--- End of stack trace from previous location ---
+   at System.Net.Security.SslStream.WriteAsyncInternal[TIOAdapter](ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.IO.Pipelines.StreamPipeWriter.CompleteAsync(Exception exception)
+   at System.IO.Pipelines.StreamPipeWriter.CompleteAsync(Exception exception)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.DuplexPipeStreamAdapter`1.DisposeAsync()
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.KestrelConnection`1.ExecuteAsync()
+2024-05-10 18:49:43.964 +03:00 [INF] HTTP POST /api/events/raw responded 404 in 3.9599 ms
+2024-05-10 18:55:04.570 +03:00 [INF] HTTP POST /api/events/raw responded 404 in 2.4485 ms
+2024-05-10 19:05:05.020 +03:00 [INF] HTTP POST /api/events/raw responded 404 in 1.5564 ms
+2024-05-10 19:15:20.878 +03:00 [INF] Now listening on: https://localhost:7202
+2024-05-10 19:15:20.893 +03:00 [INF] Now listening on: http://localhost:5073
+2024-05-10 19:15:20.894 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-10 19:15:20.894 +03:00 [INF] Hosting environment: Development
+2024-05-10 19:15:20.894 +03:00 [INF] Content root path: /Users/nlupu/Projects/hotels-api/hotels-api
+2024-05-10 19:15:22.558 +03:00 [INF] HTTP POST /api/events/raw responded 404 in 317.9500 ms
+2024-05-10 19:15:23.946 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET api/Countries" for actions - hotels_api.Controllers.CountriesController.GetPagedCountries (hotels-api),hotels_api.Controllers.CountriesController.GetCountries (hotels-api). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-05-10 19:15:24.696 +03:00 [INF] HTTP POST /api/events/raw responded 404 in 52.8342 ms
+2024-05-10 19:15:34.732 +03:00 [INF] HTTP POST /api/events/raw responded 404 in 3.6091 ms
+2024-05-10 19:15:54.763 +03:00 [INF] HTTP POST /api/events/raw responded 404 in 0.1863 ms
+2024-05-10 19:16:34.820 +03:00 [INF] HTTP POST /api/events/raw responded 404 in 0.0860 ms
+2024-05-10 19:16:45.774 +03:00 [INF] Now listening on: https://localhost:7202
+2024-05-10 19:16:45.789 +03:00 [INF] Now listening on: http://localhost:5073
+2024-05-10 19:16:45.790 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-10 19:16:45.790 +03:00 [INF] Hosting environment: Development
+2024-05-10 19:16:45.791 +03:00 [INF] Content root path: /Users/nlupu/Projects/hotels-api/hotels-api
+2024-05-10 19:16:47.446 +03:00 [INF] HTTP POST /api/events/raw responded 404 in 57.4373 ms
+2024-05-10 19:16:49.500 +03:00 [INF] HTTP POST /api/events/raw responded 404 in 3.1605 ms
+2024-05-10 19:16:59.588 +03:00 [INF] HTTP POST /api/events/raw responded 404 in 6.4271 ms
+2024-05-10 19:17:11.601 +03:00 [INF] HTTP GET /api/Countries/GetAll responded 200 in 1019.2126 ms
+2024-05-10 19:17:19.671 +03:00 [INF] HTTP POST /api/events/raw responded 404 in 0.2175 ms
+2024-05-10 19:17:28.482 +03:00 [INF] HTTP GET /api/Countries/GetAll responded 200 in 466.2289 ms
+2024-05-10 19:17:42.761 +03:00 [INF] HTTP GET /api/Countries/GetAll responded 200 in 313.2116 ms
+2024-05-10 19:17:59.737 +03:00 [INF] HTTP POST /api/events/raw responded 404 in 0.2329 ms
+2024-05-10 19:19:19.962 +03:00 [INF] HTTP POST /api/events/raw responded 404 in 0.8273 ms
+2024-05-10 19:48:58.787 +03:00 [INF] HTTP POST /api/events/raw responded 404 in 1.0411 ms
+2024-05-10 23:55:54.245 +03:00 [INF] HTTP POST /api/events/raw responded 404 in 2.7052 ms

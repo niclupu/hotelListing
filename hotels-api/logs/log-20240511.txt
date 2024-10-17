@@ -1,0 +1,2 @@
+2024-05-11 14:30:40.291 +03:00 [INF] HTTP POST /api/events/raw responded 404 in 6.9090 ms
+2024-05-11 15:29:07.750 +03:00 [INF] HTTP POST /api/events/raw responded 404 in 2.2848 ms

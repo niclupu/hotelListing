@@ -1,0 +1,14 @@
+/Users/nlupu/Projects/hotels-api/HotelListing.Data/obj/Debug/net8.0/hotels-api.Data.csproj.AssemblyReference.cache
+/Users/nlupu/Projects/hotels-api/HotelListing.Data/obj/Debug/net8.0/hotels-api.Data.GeneratedMSBuildEditorConfig.editorconfig
+/Users/nlupu/Projects/hotels-api/HotelListing.Data/obj/Debug/net8.0/hotels-api.Data.AssemblyInfoInputs.cache
+/Users/nlupu/Projects/hotels-api/HotelListing.Data/obj/Debug/net8.0/hotels-api.Data.AssemblyInfo.cs
+/Users/nlupu/Projects/hotels-api/HotelListing.Data/obj/Debug/net8.0/hotels-api.Data.csproj.CoreCompileInputs.cache
+/Users/nlupu/Projects/hotels-api/HotelListing.Data/bin/Debug/net8.0/hotels-api.Data.deps.json
+/Users/nlupu/Projects/hotels-api/HotelListing.Data/bin/Debug/net8.0/hotels-api.Data.runtimeconfig.json
+/Users/nlupu/Projects/hotels-api/HotelListing.Data/bin/Debug/net8.0/hotels-api.Data.dll
+/Users/nlupu/Projects/hotels-api/HotelListing.Data/bin/Debug/net8.0/hotels-api.Data.pdb
+/Users/nlupu/Projects/hotels-api/HotelListing.Data/obj/Debug/net8.0/hotels-api.Data.dll
+/Users/nlupu/Projects/hotels-api/HotelListing.Data/obj/Debug/net8.0/refint/hotels-api.Data.dll
+/Users/nlupu/Projects/hotels-api/HotelListing.Data/obj/Debug/net8.0/hotels-api.Data.pdb
+/Users/nlupu/Projects/hotels-api/HotelListing.Data/obj/Debug/net8.0/hotels-api.Data.genruntimeconfig.cache
+/Users/nlupu/Projects/hotels-api/HotelListing.Data/obj/Debug/net8.0/ref/hotels-api.Data.dll

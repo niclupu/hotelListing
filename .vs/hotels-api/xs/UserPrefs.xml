@@ -1,0 +1,63 @@
+﻿<Properties StartupConfiguration="{20DC2831-A900-45C4-9EB3-0C80BAE999FE}|https">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.hotels-api PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <DisabledProjects>
+    <String>HotelListingMinimal/HotelListingMinimal.csproj</String>
+  </DisabledProjects>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="HotelListing.Data/HotelListingDbContext.cs">
+    <Files>
+      <File FileName="hotels-api/Program.cs" Line="22" Column="36" />
+      <File FileName="hotels-api/Controllers/CountriesController.cs" />
+      <File FileName="hotels-api/Controllers/HotelsController.cs" />
+      <File FileName="hotels-api/Controllers/WeatherForecastController.cs" />
+      <File FileName="hotels-api/Controllers/AccountController.cs" />
+      <File FileName="hotels-api/appsettings.json" Line="3" Column="36" />
+      <File FileName="hotels-api/logs/log-20240510.txt" />
+      <File FileName="../../.microsoft/usersecrets/660156ca-5fb4-4505-90c2-c0753b542e9d/secrets.json" />
+      <File FileName="HotelListing.Data/Country.cs" />
+      <File FileName="HotelListing.Data/Hotel.cs" />
+      <File FileName="hotels-api/hotels-api.csproj" />
+      <File FileName="HotelListing.Data/hotels-api.Data.csproj" />
+      <File FileName="HotelListing.Data/Migrations/20240507064941_initial.Designer.cs" />
+      <File FileName="HotelListing.Data/Migrations/20240507081030_SeededCountriesAndHotels.cs" />
+      <File FileName="HotelListing.Data/Migrations/HotelListingDbContextModelSnapshot.cs" />
+      <File FileName="HotelListing.Data/Migrations/20240508125315_AddedIdentityTables.Designer.cs" />
+      <File FileName="HotelListing.Data/Migrations/20240509085228_AddedDefaultRoles.Designer.cs" />
+      <File FileName="hotels-api.Core/hotels-api.Core.csproj" />
+      <File FileName="hotels-api.Core/Models/Country/BaseCountryDTO.cs" />
+      <File FileName="hotels-api.Core/Models/Country/CreateCountryDto.cs" />
+      <File FileName="hotels-api.Core/Models/Country/GetCountryDto.cs" />
+      <File FileName="hotels-api.Core/Configurations/MapperConfig.cs" />
+      <File FileName="hotels-api.Core/Middleware/ExceptionMiddleware.cs" />
+      <File FileName="HotelListing.Data/Migrations/20240507064941_initial.cs" />
+      <File FileName="HotelListing.Data/Configurations/RoleConfiguration.cs" />
+      <File FileName="HotelListing.Data/Configurations/CountriesConfiguration.cs" />
+      <File FileName="HotelListing.Data/Configurations/HotelConfiguration.cs" />
+      <File FileName="hotels-api.Core/Repository/AuthManager.cs" Line="1" Column="1" />
+      <File FileName="HotelListing.Data/HotelListingDbContext.cs" Line="48" Column="2" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="hotels-api" expanded="True">
+            <Node name="hotels-api" expanded="True">
+              <Node name="Dependencies" expanded="True" />
+            </Node>
+            <Node name="hotels-api.Core" expanded="True">
+              <Node name="Contracts" expanded="True" />
+              <Node name="Repository" expanded="True" />
+            </Node>
+            <Node name="hotels-api.Data" expanded="True">
+              <Node name="HotelListingDbContext.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>
